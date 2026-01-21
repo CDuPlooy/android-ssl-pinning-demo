@@ -28,14 +28,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="sendHttpRequest"
-                android:text="HTTP Request" />
+                android:text="Plain HTTP request" />
 
             <Button
                 android:id="@+id/ignore_proxy_http_request"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="sendIgnoreProxyHttpRequest"
-                android:text="Ignore Proxy HTTP Request" />
+                android:text="Plain ignore-proxy HTTP request" />
 
             <View
                 android:layout_width="match_parent"
